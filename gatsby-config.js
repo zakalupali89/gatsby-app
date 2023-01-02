@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
     `gatsby-transformer-remark`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
